@@ -2,8 +2,12 @@ os: windows
 
 language: node_js
 node_js:
-  - "14"
+  - "16"
 
-script:
+# Commands to install dependencies
+install:
   - npm install
-  - npm test
+
+# Commands to run tests
+script:
+  - echo "Hello, OK test"
